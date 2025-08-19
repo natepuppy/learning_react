@@ -67,3 +67,15 @@ export default tseslint.config([
   },
 ])
 ```
+
+## Initial Setup Notes
+
+Project created with the following commands:
+
+```
+npm create vite@latest my-new-project -- --template react-ts
+cd my-new-project
+npm install @tanstack/react-query axios zustand react-router-dom react-icons antd @ant-design/icons @dnd-kit/core @dnd-kit/sortable @dnd-kit/utilities moment-timezone react-helmet react-toastify
+npm install -D postcss-nesting sass vite-tsconfig-paths typescript@~5.8.3 vite-plugin-pwa
+```
+
